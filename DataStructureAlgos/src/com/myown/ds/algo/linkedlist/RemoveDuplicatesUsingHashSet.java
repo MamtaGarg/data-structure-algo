@@ -4,7 +4,7 @@ import java.util.HashSet;
 import java.util.Scanner;
 import java.util.Set;
 
-public class RemoveDuplicates {
+public class RemoveDuplicatesUsingHashSet {
 
 	static Node start;
 	
@@ -68,8 +68,6 @@ public class RemoveDuplicates {
 		
 		System.out.println("Inserted values are :-");
 		printValues();
-		// remove elements using merge sort
-		//mergeSortAndRemoveDuplicates();
 		removeDuplicatesUsingHash();
 		System.out.println("\nAfter remove duplicates values are :-");
 		printValues();
